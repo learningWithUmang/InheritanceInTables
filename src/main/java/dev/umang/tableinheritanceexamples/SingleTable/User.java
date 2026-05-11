@@ -14,6 +14,11 @@ public class User {
     @Id
     private UUID id;
 }
+
+/*
+name, id, noOfHR, rating, company, user_type(string)
+Vinor  1    2      null     null     "TA"
+ */
 /*
 users
 id | name | user_type | help_requests | ratings | company
