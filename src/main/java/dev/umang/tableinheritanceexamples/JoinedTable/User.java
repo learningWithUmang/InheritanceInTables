@@ -5,6 +5,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Inheritance;
 import jakarta.persistence.InheritanceType;
 
+import java.lang.annotation.Inherited;
 import java.util.UUID;
 
 
@@ -16,8 +17,15 @@ public class User {
     @Id
     private UUID id;
 }
+/*
+Sorting, searching
+ */
 
 /*
 User
 id name
+ */
+/*
+Assignment:- Setup this and run the spring appn
+please do it. and see all tables created per strategy.
  */
